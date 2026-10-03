@@ -1,0 +1,13 @@
+tier,method,target,n,MAE,RMSE,R2
+interpolation,persistence,SoH_Proxy,560,0.0011,0.0012,0.9999
+interpolation,persistence,Remaining_Range_km,560,2.1539,3.5118,0.9989
+interpolation,linear_regression,SoH_Proxy,560,0.0147,0.0191,0.9649
+interpolation,linear_regression,Remaining_Range_km,560,34.0684,43.6475,0.8233
+combination_shift,persistence,SoH_Proxy,560,0.0011,0.0012,0.9999
+combination_shift,persistence,Remaining_Range_km,560,1.3923,2.9762,0.9985
+combination_shift,linear_regression,SoH_Proxy,560,0.0116,0.0156,0.9753
+combination_shift,linear_regression,Remaining_Range_km,560,28.1101,35.3371,0.7815
+extrapolation,persistence,SoH_Proxy,1120,0.0012,0.0013,0.9999
+extrapolation,persistence,Remaining_Range_km,1120,1.2719,2.6846,0.9982
+extrapolation,linear_regression,SoH_Proxy,1120,0.0168,0.0223,0.9597
+extrapolation,linear_regression,Remaining_Range_km,1120,44.2784,52.2489,0.3242

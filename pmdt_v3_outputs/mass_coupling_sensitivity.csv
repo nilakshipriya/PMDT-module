@@ -1,0 +1,4 @@
+kg_per_ah,n_fail,n_recovered,recovery_rate
+0.3,40,40,1.0
+0.6,40,40,1.0
+0.9,40,40,1.0

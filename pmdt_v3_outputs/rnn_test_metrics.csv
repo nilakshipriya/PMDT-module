@@ -1,0 +1,7 @@
+Model,SoH_Proxy_MAE,SoH_Proxy_RMSE,SoH_Proxy_MAPE,SoH_Proxy_R2,Remaining_Range_km_MAE,Remaining_Range_km_RMSE,Remaining_Range_km_MAPE,Remaining_Range_km_R2,tier
+LSTM,0.007,0.009,0.007,0.9909,9.7706,15.3805,6.834,0.9747,interpolation
+LSTM,0.0072,0.009,0.0072,0.9902,10.3093,15.4138,8.0857,0.9734,combination_shift
+LSTM,0.0167,0.0219,0.0168,0.9665,11.0771,15.0164,16.3349,0.941,extrapolation
+GRU,0.0055,0.0072,0.0056,0.9942,9.7251,14.7667,7.5369,0.9767,interpolation
+GRU,0.0056,0.0076,0.0056,0.9929,9.2494,14.9089,6.5694,0.9751,combination_shift
+GRU,0.0153,0.0204,0.0154,0.9712,9.6467,12.8369,15.3723,0.9569,extrapolation
