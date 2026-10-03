@@ -1,0 +1,6 @@
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Output artifacts (CSV results)
+pmdt_v3_outputs/
