@@ -1,3 +1,4 @@
 # Python compiled files
 __pycache__/
 *.pyc
+pmdt_v3_outputs/fleet_telemetry.csv
